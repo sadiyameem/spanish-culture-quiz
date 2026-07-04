@@ -37,6 +37,66 @@ const questions = [
             {text: "Burgos Cathedral", correct: false},
             {text: "Mosque of Cordoba", correct: false},
         ]
+    },
+
+    {
+        question: "In what year did Columbus arrive in America?",
+        answers: [
+            {text: "Thursday, October 11, 1492", correct: false},
+            {text: "Friday, October 12, 1492", correct: true},
+            {text: "Wednesday, October 10, 1492", correct: false},
+            {text: "Tuesday, October 9, 1492", correct: false},
+        ]
+    },
+
+    {
+        question: "Where was Pablo Picasso born?",
+        answers: [
+            {text: "Malaga, on October 22, 1881.", correct: false},
+            {text: "Malaga, on October 23, 1881.", correct: false},
+            {text: "Malaga, on October 24, 1881.", correct: false},
+            {text: "Malaga, on October 25, 1881.", correct: true},
+        ]
+    },
+
+    {
+        question: "Which countries were Spanish colonies in Africa?",
+        answers: [
+            {text: "Sudan", correct: false},
+            {text: "Nigeria", correct: false},
+            {text: "Equatorial Guinea", correct: true},
+            {text: "Benin", correct: false},
+        ]
+    },
+
+    {
+        question: "How many World Cups did Spain win?",
+        answers: [
+            {text: "1", correct: true},
+            {text: "2", correct: false},
+            {text: "3", correct: false},
+            {text: "100", correct: false},
+        ]
+    },
+
+    {
+        question: "How many properties are World Heritage Sites?",
+        answers: [
+            {text: "10", correct: false},
+            {text: "5", correct: false},
+            {text: "50", correct: true},
+            {text: "0", correct: false},
+        ]
+    },
+
+    {
+        question: "What is the longest river?",
+        answers: [
+            {text: "The Tagus River, with a length of 1007 kilometers", correct: true},
+            {text: "The Nile River, with a length of 6,690 kilometer", correct: false},
+            {text: "The Amazon River, with a length of 6,387 kilometer", correct: false},
+            {text: "Mississippi River, with a length of 6,270 kilometer", correct: false},
+        ]
     }
 ];
 
